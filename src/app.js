@@ -4,6 +4,6 @@ function greet(name){
 
 module.export = greet;
 
-if(requestAnimationFrame.main === module){
+if(require.main === module){
     console.log(greet("World"))
 }
